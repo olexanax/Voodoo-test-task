@@ -37,7 +37,7 @@ function cards() {
                 </p>
             </div>
             <a
-                class="uppercase text-base bg-black text-white rounded py-4 text-center invisible  group-hover:visible"
+                class="uppercase text-base bg-black text-white rounded py-4 text-center lg:invisible  group-hover:visible"
                 href="#"
                 >PICK-UP IN 2200</a>
             `;

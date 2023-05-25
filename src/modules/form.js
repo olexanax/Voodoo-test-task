@@ -17,8 +17,10 @@ function form() {
 
     form.addEventListener("submit", (e) => {
         if (emailPattern.test(inputValue)) {
+            e.preventDefault()
             hideMessage()
             alert(`User e-mail is: ${inputValue}`)
+            input.value = ""
         } else {
             showMessage()
             e.preventDefault()
