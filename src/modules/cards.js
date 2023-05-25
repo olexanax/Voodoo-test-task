@@ -16,7 +16,7 @@ function cards() {
             this.classes.forEach(className => element.classList.add(className));
             element.innerHTML = `
             <div class="relative  h-[300px] w-[300px] border rounded">
-                <span class="uppercase text-xs bg-black text-[#FEF3C7] rounded p-2 absolute left-[12px] top-[12px]"
+                <span class="uppercase font-thin text-xs bg-black text-main rounded p-2 absolute left-[12px] top-[12px]"
                 >used</span>
                 <img
                     src="${this.image}"
@@ -56,7 +56,7 @@ function cards() {
             title: card?.title.length < 25 ? card?.title : card?.title.slice(0, 25) + '...',
             id: card?.id,
             image: card?.images[0].src,
-            price: card?.price
+            price: card?.variants[0]?.price
         }))
     }
 
