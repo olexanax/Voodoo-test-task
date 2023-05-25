@@ -1,0 +1,7 @@
+@import "../node_modules/tailwindcss/base.css";
+@import "../node_modules/tailwindcss/utilities.css";
+@import "../node_modules/tailwindcss/components.css";
+body {
+    font-family: "Space Grotesk", sans-serif;
+    background-color: #fcf7e6;
+}

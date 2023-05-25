@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="/dist/output.css" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            rel="icon"
+            type="image/x-icon"
+            href="/src/images/footer-logo.svg"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap"
+            rel="stylesheet"
+        />
+        <title>Voodoo Test</title>
+    </head>
+    <body>
+        <div
+            class="box-content max-w-7xl mx-auto px-8 min-h-screen flex flex-col text-sm font-bold"
+        >
+            <header class="flex justify-between py-6 md:py-12">
+                <a href="#">
+                    <img
+                        src="./src/images/VooDoo-logo.png"
+                        alt="logo"
+                        class="w-30 h-12 md:w-58 md:h-24"
+                /></a>
+                <nav class="font-semibold text-sm md:text-xl md:font-semibold">
+                    <ul class="flex gap-x-4 md:gap-x-12">
+                        <li class="p-3 flex items-center rounded">
+                            <a href="#">About Us</a>
+                        </li>
+                        <li
+                            class="p-3 flex items-center rounded text-white bg-black"
+                        >
+                            <a href="#"> Sign-In</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <main class="border-t border-b border-solid border-black">
+                <div class="bg-black text-main p-7 rounded importantBlock">
+                    <div class="flex justify-between gap-x-2">
+                        <div class="flex md:gap-x-12 gap-x-6 items-center">
+                            <div class="flex gap-x-2 items-center">
+                                <img
+                                    src="./src/images/alert-circle.svg"
+                                    alt="alert"
+                                />
+                                <span>ALPHA</span>
+                            </div>
+                            <p class="hidden md:block">
+                                Important info regarding our service
+                            </p>
+                            <p class="block md:hidden">Important info</p>
+                        </div>
+                        <button class="arrowBottom">
+                            <img
+                                src="./src/images/arrow-bottom.svg"
+                                alt="read more"
+                            />
+                        </button>
+                    </div>
+                    <div
+                        class="additionalInfo mt-7 mx-auto max-w-[1024px] hidden"
+                    >
+                        <div class="w-full h-[1px] bg-white"></div>
+                        <p class="my-7">
+                            We're working on a new service to offer you returned
+                            online goods at a discount near you.
+                        </p>
+                        <div class="w-full h-[1px] bg-white"></div>
+                        <div
+                            class="pt-7 flex flex-col md:flex-row gap-x-2 gap-y-7 lg:gap-x-10"
+                        >
+                            <div class="">
+                                <p class="mb-2">CURRENTLY</p>
+                                <ol
+                                    class="list-decimal ml-5 text-xs flex flex-col gap-y-2 font-light"
+                                >
+                                    <li>
+                                        Very limited assortment of items that we
+                                        resell
+                                    </li>
+                                    <li>All sorts of product categories</li>
+                                    <li>
+                                        Focus on testing the ordering and
+                                        pick-up experience
+                                    </li>
+                                </ol>
+                            </div>
+                            <div class="hidden md:block">
+                                <p class="mb-2 opacity-0">0</p>
+                                <ol class="ml-5 text-xs flex flex-col gap-y-2">
+                                    <li>
+                                        <img
+                                            src="./src/images/arrow-right.svg"
+                                            alt=""
+                                        />
+                                    </li>
+                                    <li>
+                                        <img
+                                            src="./src/images/arrow-right.svg"
+                                            alt=""
+                                        />
+                                    </li>
+                                    <li>
+                                        <img
+                                            src="./src/images/arrow-right.svg"
+                                            alt=""
+                                        />
+                                    </li>
+                                </ol>
+                            </div>
+                            <div class="">
+                                <p class="mb-2">FUTURE</p>
+                                <ol
+                                    class="list-decimal ml-5 text-xs flex flex-col gap-y-2 font-light"
+                                >
+                                    <li>Returned items from other shoppers</li>
+                                    <li>Select product categories</li>
+                                    <li>
+                                        Focus on end-to-end service experience
+                                    </li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="flex flex-wrap gap-x-8 gap-y-12 justify-center pt-12 pb-[98px] wrapper"
+                >
+                    loading...
+                </div>
+                <div class="flex flex-col items-center gap-y-6 mb-32">
+                    <p class="font-normal text-xl">
+                        Be the first one to know when we launch our beta!
+                    </p>
+                    <form class="flex justify-center gap-x-3 w-full form">
+                        <input
+                            type="email"
+                            class="p-4 text-black placeholder-black flex-1 max-w-[518px]"
+                            placeholder="E-mail"
+                        />
+                        <button type="submit" class="bg-orange p-4 rounded">
+                            Sign-up
+                        </button>
+                    </form>
+                    <p class="text-red valid-message invisible">
+                        Invalid type of e-mail
+                    </p>
+                </div>
+            </main>
+            <footer
+                class="bg-white flex flex-col items-start md:justify-between p-8 md:p-0 md:flex-row gap-x-8 gap-y-12 py-6 md:py-12"
+            >
+                <a
+                    href="#"
+                    class="w-[300px] flex justify-center items-center order-last self-center md:order-first"
+                >
+                    <img
+                        src="./src/images/footer-logo.svg"
+                        alt="logo"
+                        class="w-30"
+                    />
+                </a>
+                <ul
+                    class="w-auto md:w-[300px] uppercase font-bold text-sm flex flex-col gap-y-5"
+                >
+                    <li><a href="#">faq</a></li>
+                    <li><a href="#">RETURNS</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+                <ul
+                    class="w-auto md:w-[300px] uppercase font-bold text-sm flex flex-col gap-y-5"
+                >
+                    <li><a href="#">TERMS & CONDITIONS</a></li>
+                    <li><a href="#">PRIVACY POLICY</a></li>
+                    <li><a href="#">COOKIE POLICY</a></li>
+                    <li><a href="#">COOKIE SETTINGS</a></li>
+                </ul>
+                <ul
+                    class="w-auto md:w-[300px] uppercase font-bold text-sm flex flex-col gap-y-5"
+                >
+                    <li><a href="#">ABOUT SECOND CHANCE</a></li>
+                    <li><a href="#">CAREER</a></li>
+                    <li><a href="#">FACEBOOK</a></li>
+                    <li><a href="#">INSTAGRAM</a></li>
+                </ul>
+            </footer>
+        </div>
+        <script src="./src/index.js" type="module"></script>
+    </body>
+</html>
